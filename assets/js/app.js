@@ -87,7 +87,8 @@ $(document).ready(() => {
     $.ajax({
         method: 'GET',
         dataType: 'json',
-        url: "/jt-store-commerce/assets/data/data.json",
+        url: "http://127.0.0.1:5500/assets/data/data.json",
+        //url: "/jt-store-commerce/assets/data/data.json",
 
     }).done(function(dataJson) {
         buildList(dataJson);
@@ -101,7 +102,9 @@ $(document).ready(() => {
     $.ajax({
         method: 'GET',
         dataType: 'json',
-        url: "/jt-store-commerce/assets/data/data_filters.json",
+        url: "http://127.0.0.1:5500/assets/data/data_filters.json",
+        //url: "/jt-store-commerce/assets/data/data_filters.json",
+        
 
     }).done(function(filters) {
         buildFilters(filters);
