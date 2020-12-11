@@ -87,7 +87,7 @@ $(document).ready(() => {
     $.ajax({
         method: 'GET',
         dataType: 'json',
-        url: "https://lucasmaximilianocueva.github.io/jt-store-commerce/assets/data/data.json",
+        url: "/jt-store-commerce/assets/data/data.json",
 
     }).done(function(dataJson) {
         buildList(dataJson);
@@ -101,7 +101,7 @@ $(document).ready(() => {
     $.ajax({
         method: 'GET',
         dataType: 'json',
-        url: "https://lucasmaximilianocueva.github.io/jt-store-commerce/assets/data/data_filters.json",
+        url: "/jt-store-commerce/assets/data/data_filters.json",
 
     }).done(function(filters) {
         buildFilters(filters);
