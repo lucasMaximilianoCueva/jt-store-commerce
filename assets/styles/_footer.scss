@@ -1,0 +1,216 @@
+$textColorPrimary: #39393b;
+$textColorSecondary: #ecf0f1;
+$cardPrimary: #303032;
+$btnColor: #ffff00;
+$burgerColor: #ecf0f1be;
+$quicksand: "Quicksand", sans-serif;
+$montserrat: "Montserrat", sans-serif;
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 25rem;
+    padding: 0;
+    width: 100%;
+    background-color: #1c1c1d;
+    div {
+      display: flex;
+      flex-direction: column;
+      padding: 5% 2% 0 2%;
+      img {
+        width: 20px;
+      }
+    }
+    p {
+      color: $textColorSecondary;
+      a {
+      color: $textColorSecondary;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      text-decoration: none;
+        &:hover {
+        color: $burgerColor;
+        text-decoration: none;
+      }
+      }
+    }
+    input {
+      margin-bottom: 16px;
+    }
+    h3 {
+      color: $burgerColor;
+      margin-bottom: 26px;
+    }
+    .modalAcceder {
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+        &:hover {
+        color: $btnColor;
+      }
+    }
+  }
+  
+
+  @media screen and (max-width: 1024px) {
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 25rem;
+        padding: 0;
+        width: 100%;
+        background-color: #1c1c1d;
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 2%;
+        img {
+          width: 20px;
+        }
+      }
+      p {
+        font-size: 0.5rem;
+        color: $textColorSecondary;
+        a {
+        color: $textColorSecondary;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        text-decoration: none;
+          &:hover {
+          color: $burgerColor;
+          text-decoration: none;
+        }
+        }
+      }
+      input {
+        margin-bottom: 16px;
+        height: 16px;
+       &::placeholder{
+          font-size: 0.4rem;
+          line-height: 16px;
+          }
+      }
+      h3 {
+        color: $burgerColor;
+        margin-bottom: 26px;
+      }
+      .modalAcceder {
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+          &:hover {
+          color: $btnColor;
+        }
+      }
+    }
+
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 25rem;
+        padding: 0;
+        width: 100%;
+        background-color: #1c1c1d;
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 2%;
+        img {
+          width: 20px;
+        }
+      }
+      p {
+        color: $textColorSecondary;
+        a {
+        color: $textColorSecondary;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        text-decoration: none;
+          &:hover {
+          color: $burgerColor;
+          text-decoration: none;
+        }
+        }
+      }
+      input {
+        margin-bottom: 16px;
+      }
+      h3 {
+        color: $burgerColor;
+        margin-bottom: 26px;
+      }
+      .modalAcceder {
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+          &:hover {
+          color: $btnColor;
+        }
+      }
+    }
+
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .footer {
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      justify-content: space-around;;
+      padding: 0;
+      width: 100%;
+      background-color: #1c1c1d;
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: center;
+        img {
+          width: 20px;
+        }
+      }
+      p {
+        color: $textColorSecondary;
+        a {
+        color: $textColorSecondary;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        text-decoration: none;
+          &:hover {
+          color: $burgerColor;
+          text-decoration: none;
+        }
+        }
+      }
+      input {
+        margin-bottom: 16px;
+      }
+      h3 {
+        color: $burgerColor;
+        margin-bottom: 26px;
+      }
+      .modalAcceder {
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+          &:hover {
+          color: $btnColor;
+        }
+      }
+      .contactFooter {
+        margin-top: 30px;
+      }
+    }
+
+  }

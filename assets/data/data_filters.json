@@ -1,0 +1,12 @@
+[{
+        "category": [
+            { "id": 1, "category": "Productos", "value": "producto" },
+            { "id": 2, "category": "Servicios", "value": "servicio" }
+        ]
+    },
+    {
+        "prices": [
+            { "id": 1, "price": "1300", "value": 1300 }
+        ]
+    }
+]

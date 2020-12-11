@@ -1,0 +1,71 @@
+[{
+        "id": 1,
+        "title": "Folleto",
+        "price": 749,
+        "description": "Folleto frente x1000u",
+        "longdescription": "Tipo de papel: 150gr. Laminado: no. Barnizado: si. Alto: 10x5 full-color. Frente solo.",
+        "category": "producto",
+        "img": "assets/img/1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Flyer",
+        "price": 549,
+        "description": "Diseño",
+        "longdescription": "Formato: Digital. 3 muestras, 1 a elección hasta dos modificaciones. Se entrega formato jpg, svg y pdf.",
+        "category": "producto",
+        "img": "assets/img/2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Tags",
+        "price": 299,
+        "description": "Papel ilustración x100u.",
+        "longdescription": "Tipo de papel: ilustración 250gr. Laminado: no. Barnizado: no. Alto: 8x5. Full-color. Frente solo. Terminaciones: sacabocado",
+        "category": "servicio",
+        "img": "assets/img/3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Desarrollo Web",
+        "price": 6499,
+        "description": "Single Page Aplication, Responsive, hasta 5 secciones, autogestionable",
+        "longdescription": "Single Page Aplication, Responsive, hasta 5 secciones, autogestionable. Seo y posicionamiento en Google.",
+        "category": "servicio",
+        "img": "assets/img/4.jpg"
+    }, {
+        "id": 5,
+        "title": "Diseño Web",
+        "price": 4499,
+        "description": "Responsive, SEO y posicionamiento, hasta 3 secciones",
+        "longdescription": "Responsive, SEO y posicionamiento, hasta 3 secciones. Armamos el sitio a tu medida. ",
+        "category": "servicio",
+        "img": "assets/img/6.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Sesión de fotos",
+        "price": 3600,
+        "description": "Book de fotos",
+        "longdescription": "Exterior: tapa dura, full-color, laminados, tapas laminadas. Espiralado.",
+        "category": "producto",
+        "img": "assets/img/5.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Tarjetas de Invitacion",
+        "price": 1299,
+        "description": "Tema a eleccion x100u.",
+        "longdescription": "Tamaño: 10x15. Full-color. Cartón: 300gr. Diseño personalizado. Todas las temática",
+        "category": "producto",
+        "img": "assets/img/7.jpg"
+    }, {
+        "id": 8,
+        "title": "Diseño Web Básico",
+        "price": 1999,
+        "description": "Diseño de sitio Web estático",
+        "longdescription": "Diseño Grafico y maquetaado de sitio Web básico y estático. Estilo del sitio web: una página",
+        "category": "producto",
+        "img": "assets/img/6.jpg"
+    }
+]

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'quicksand';
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 2px;
+    background-color: #454545;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: gray;
+    opacity: 0.7;
+    border-radius: 7px;
+}
+
+@font-face {
+    font-family: 'dosis';
+    src: url('../fonts/Dosis-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url('../fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'exo';
+    src: url('../fonts/Exo-VariableFont_wght.ttf') format('truetype');
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+}

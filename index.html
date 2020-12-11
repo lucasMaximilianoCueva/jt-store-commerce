@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JT | Diseño</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/img/icono.png" />
+    <link href="assets/styles/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/styles/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/styles/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.nivo.slider.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script defer src="assets/js/anim.js" charset="utf-8"></script>
+    <script src="assets/js/products.js" charset="utf-8"></script>
+    <script src="assets/js/ShoppingCart.js" charset="utf-8"></script>
+    <script src='assets/js/Filters.js'></script>
+    <script defer src="assets/js/app.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a id="landing-btn" href="index.html">JT</a></li>
+                <li><a href="#one">One</a></li>
+                <li><a href="#two">Two</a></li>
+                <li><a href="#three">Three</a></li>
+                <li><a id="store-btn" href="#body-store">Store</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section class="intro" id="one">
+        <div class="intro-content">
+            <div class="intro-text">
+                <h3>Te ayudamos a desarrollar tu identidad</h3>
+                <p>Si bien Mac® siempre ha sido parte de ciertos departamentos y una
+                    plataforma clave en las industrias verticales, las compras
+                    corporativas han aumentado en los últimos años. En muchos casos, Mac
+                    se está convirtiendo en una opción estándar para las
+                    organizaciones.</p>
+            </div>
+            <img class="animate__animated animate__backInUp animate__delay-2s" src="assets/img/idea.jpg" alt="" />
+        </div>
+    </section>
+
+    <section class="intro" id="two">
+        <div class="intro-content">
+            <div class="intro-text intro-text2">
+                <h3>Brindamos el equilibrio perfecto entre rendimiento técnico y estético.</h3>
+                <p>Si bien Mac® siempre ha sido parte de ciertos departamentos y una
+                    plataforma clave en las industrias verticales, las compras
+                    corporativas han aumentado en los últimos años. En muchos casos, Mac
+                    se está convirtiendo en una opción estándar para las
+                    organizaciones.</p>
+            </div>
+            <img class="animate__animated animate__backInUp animate__delay-2s " src="assets/img/about-img-1.jpg"
+                alt="" />
+        </div>
+    </section>
+
+    <section class="intro" id="three">
+        <div class="intro-content">
+            <div class="intro-text intro-text3">
+                <h3>Brindamos el equilibrio perfecto entre rendimiento técnico y estético.</h3>
+                <p>Si bien Mac® siempre ha sido parte de ciertos departamentos y una
+                    plataforma clave en las industrias verticales, las compras
+                    corporativas han aumentado en los últimos años. En muchos casos, Mac
+                    se está convirtiendo en una opción estándar para las
+                    organizaciones.</p>
+            </div>
+            <img class="animate__animated animate__backInUp animate__delay-2s" src="assets/img/about-img-1.jpg"
+                alt="" />
+        </div>
+    </section>
+
+    <!-- Seccion Tienda -->
+    <section id="body-store">
+        <div class="banner">
+            <div id="filter">
+                <div id="filter-list"></div>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+                    <img id="filter-icon" src="assets/img/filter.png" alt="filter-icon"> Filtrar
+                </button>
+            </div>
+            
+            <form id="form-search">
+                <input type="text" id="search-input" value='' placeholder=" Buscá en JT Design" />
+                <span id="delete-input"><img src="assets/img/eraser.png" alt=""></span>
+                <input type="button" class="btn btn-light" id="search-button" value="Buscar" />
+            </form>
+
+            <div id="cart">
+                <div id="cart-box">
+                    <!-- Contenido -->
+                </div>
+                
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#cartModal">
+                    <img id="cart-icon" src="assets/img/shopping-cart1.png" alt="shopping-cart"> Carrito
+                </button>
+            </div>
+        </div>
+
+        <div class="search-result" id="search-result-length-box">
+            <p><span id="search-result-length"></span></p>
+        </div>
+
+        <div class="main">
+            <section class="cards" id="products-body"></section>
+            <!-- Contenido -->
+        </div>
+    </section>
+    <!-- Fin Seccion Tienda -->
+
+
+    <!-- Payment Gateway -->
+  
+
+    <!--MODAL CART-->
+
+
+        <div class="modal fade opacity modaL lefT" id="gatewayModal" tabindex="" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialoG" role="document">
+                <div class="modal-content">
+                    <div class="modal-body modal-color">
+                        <div class="nav flex-sm-column flex-row">
+                            
+                                <div class="payment-title" id="payment-title">
+                                    <h1>Finalizar Compra</h1>
+                                </div>
+                                <div id="fieldset-box">
+                                    <fieldset>
+                                        <h2 id="price-display">Seleccione su método de pago</h2>
+                                        <div>
+                                        <input type="radio" name="pay" value="Tarjeta de Crédito" checked /> Crédito
+                                        <input type="radio" name="pay" value="Tarjeta de Débito" /> Débito
+                                        <input type="radio" name="pay" value="Transferencia Bancaria" /> Transferencia Bancaria
+                                        <input type="text" name="comment" class="form-control" placeholder="Añadir un comentario" />
+                                        </div>
+                                        <button class="btn btn-success" type="button" id="btnConfirm">Confirmar pedido</button>
+                                    </fieldset>
+                                </div>
+                                <div class="payment-block">
+                                    <h2>Resumen</h2>
+                                    <p>Total: <span id="pay-display"></span></p>
+                                    <p>Metodo de pago: <span id="method-display"></span></span>
+                                    </p>
+                                    <p>Comentarios: <span id="comment-display"></span></p>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- container -->
+   
+    <!-- container -->
+
+
+    <footer class="footer">
+
+        <div class="contactFooter">
+            <h3>Contacto</h3>
+            <p>jt.design.photography@gmail.com</p>
+            <p>Lunes - Viernes</p>
+            <p>8am - 6pm</p>
+        </div>
+
+        <div>
+            <h3>Social</h3>
+            <p><a href="">Facebook</a></p>
+            <p><a href="">Instagram</a></p>
+            <p><a href="">Linkedin</a></p>
+        </div>
+
+        <div>
+            <h3>Suscribíte</h3>
+            <p>Recibe Novedades y Promociones</p>
+            <input type="text" placeholder=" Correo Electrónico">
+            <p><a id="store-btn" href="#body-store">Store</a></p>
+        </div>
+
+        <div>
+            <h3>Ubicación</h3>
+            <p>Argentina, Buenos Aires</p>
+            <p>Lomas de Zamora</p>
+            <p>Av. Hipolito Yrigoyen 8917</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
+
+<!--<form id="form-search">
+                            <input type="text" id="search-input" value='' placeholder=" Buscá en JT Design" />
+                            <span id="delete-input"><img src="assets/img/eraser.png" alt=""></span>
+                            <input type="button" id="search-button" value="Buscar" />
+                        </form> -->
